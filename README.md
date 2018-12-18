@@ -1,3 +1,19 @@
+# React Springs: Demo with React Hooks
+
+Some wonderful animations can be achieved using just CSS, more still with a sprinkling of
+javascript. But when CSS can no longer cope, libraries such as
+[react-spring](https://react-spring.surge.sh/) can take over.
+
+In simplest of terms, `react-spring` smooths transition of a value from _A_ to _B_.
+While this might not sound like a big deal, all you need to worry about is start and end values,
+and `react-spring` will transition the value smoothly. Your React component does not need to
+re-render whenever the value updates during that transition; you can choose to animate your
+DOM elements using CSS transforms instead, which lessens the burden on React.
+
+This repo is my playground for `react-spring` and as such is eternally a work-in-progress :)
+
+----
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -26,16 +42,6 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
